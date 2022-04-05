@@ -4,57 +4,57 @@
 
 % --- Frame: text ---
 \begin{frame}{Frame Title}{Frame Subtitle}
-    Frame contents
-     \begin{itemize}
-        \item Item 1
-        \item Item 2
-        \begin{itemize}
-            \item Subitem 2.1 
-            \item Subitem 2.2 
-        \end{itemize}
-    \end{itemize}
-    This is \textbg{bold text for normal text}.
+	Frame contents
+	\begin{itemize}
+		\item Item 1
+		\item Item 2
+		      \begin{itemize}
+			      \item Subitem 2.1
+			      \item Subitem 2.2
+		      \end{itemize}
+	\end{itemize}
+	This is \textbg{bold text for normal text}.
 \end{frame}
 
 % --- Frame: blocks ---
 \begin{frame}{Frame Title}{Frame Subtitle}
-    \begin{block}{Block}
-        This is \textbf{bold text for blocks}.
-    \end{block}
-    \begin{alertblock}{Alert Block}
-        This is \textbr{bold text for alert blocks}.
-    \end{alertblock}
-    \begin{example}
-        This is \textbf{bold text for example blocks}.
-    \end{example}
-    \begin{block}{}
-        \centering
-        This is \textbf{bold text for unnamed blocks}.
-    \end{block}
+	\begin{block}{Block}
+		This is \textbf{bold text for blocks}.
+	\end{block}
+	\begin{alertblock}{Alert Block}
+		This is \textbr{bold text for alert blocks}.
+	\end{alertblock}
+	\begin{example}
+		This is \textbf{bold text for example blocks}.
+	\end{example}
+	\begin{block}{}
+		\centering
+		This is \textbf{bold text for unnamed blocks}.
+	\end{block}
 \end{frame}
 
 % --- Frame: text and figure ---
 \begin{frame}{Frame Title}{Frame Subtitle}
-    \begin{columns}
-        % First column
-        \column{.5\textwidth}
-        Frame contents
-            \begin{itemize}
-                \item Item 1
-                \item Item 2
-                \begin{itemize}
-                    \item Subitem 2.1 
-                    \item Subitem 2.2 
-                \end{itemize}
-            \end{itemize}
-            This is \textbg{bold text for normal text}.
-        % Second column
-        \column{.5\textwidth}
-        \begin{figure}
-            \begin{center}
-                \includegraphics[width=\textwidth]{example-image}
-                \caption{Example Figure A}
-            \end{center}
-        \end{figure}
-    \end{columns}
+	\begin{columns}
+		% First column
+		\column{.5\textwidth}
+		Frame contents
+		\begin{itemize}
+			\item Item 1
+			\item Item 2
+			      \begin{itemize}
+				      \item Subitem 2.1
+				      \item Subitem 2.2
+			      \end{itemize}
+		\end{itemize}
+		This is \textbg{bold text for normal text}.
+		% Second column
+		\column{.5\textwidth}
+		\begin{figure}
+			\begin{center}
+				\includegraphics[width=\textwidth]{example-image}
+				\caption{Example Figure A}
+			\end{center}
+		\end{figure}
+	\end{columns}
 \end{frame}
